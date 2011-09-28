@@ -1,0 +1,1 @@
+Grails plugin which uses @ActiveFilterable annotation and provides compile-time AST transform to create a Hibernate filter (enabled by default) so that only domain objects with active==true are displayed in queries.
