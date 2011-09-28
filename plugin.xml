@@ -1,0 +1,17 @@
+<plugin name='active-filterable' version='0.9.7' grailsVersion='1.3.0 &gt; *'>
+  <author>Robert Elsner</author>
+  <authorEmail>thatsnotright@gmail.com</authorEmail>
+  <title>Active property and Hibernate filter for easy deactivating of data</title>
+  <description>\
+This plugin adds a boolean field 'active' to each object annotated as @ActiveFilterable.  It also supplies a Hibernate Filter, which is enabled by default, to add WHERE clause criteria for only active elements.
+</description>
+  <documentation>http://grails.org/plugin/active-filterable</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+  </resources>
+  <dependencies>
+    <plugin name='hibernateFilter' version='* &gt; 0.1.8' />
+  </dependencies>
+  <behavior />
+</plugin>
